@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
+      //   theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context), 
+      //you can also add black and white backgroup swtiching <3
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: TextTheme(title: TextStyle(color: Colors.black)),
